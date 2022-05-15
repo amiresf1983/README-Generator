@@ -51,15 +51,17 @@ const readmePrompts = [
   },
 ];
 
-fs.writeFile(fileName, data, function (err) {
-  console.log(fileName);
-  console.log(data);
-  if (err) {
-    return console.log(err);
-  } else {
-    console.log("success");
-  }
-});
+function writeToFile(fileName, data) {
+  fs.writeFile(fileName, data, function (err) {
+    console.log(fileName);
+    console.log(data);
+    if (err) {
+      return console.log(err);
+    } else {
+      console.log("success");
+    }
+  });
+}
 
 function init() {
   inquirer.prompt(readmePrompts).then(function (data) {
