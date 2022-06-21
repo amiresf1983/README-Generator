@@ -6,6 +6,7 @@ AS A developer
 I WANT a README generator
 SO THAT I can quickly create a professional README for a new project
 ```
+## Video Demo Link
 
 ## Acceptance Criteria
 
@@ -27,4 +28,4 @@ WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 ```
 
-## Video Demo Link
+
