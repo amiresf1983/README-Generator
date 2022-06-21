@@ -3,7 +3,7 @@ function generateReadme(data) {
 
 
 ## ${data.title}
-https://github.com/amiresf1983
+
 
 ## description
 ${data.description}
@@ -27,7 +27,10 @@ the contributors for this project: ${data.contribution}
 ## tests
 requirements for running this project: ${data.tests}
 ## questions
-for any inquiries please contact ${data.user}
+for any inquiries please contact: ${data.questions}
+
+## GITHUB:
+ https://github.com/amiresf1983
 `;
 }
 
