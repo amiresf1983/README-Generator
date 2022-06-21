@@ -1,11 +1,11 @@
 
 
 
-## 
-https://github.com/amiresf1983
+## README generator
+
 
 ## description
-
+this project is used to create a professional README file
 
 ## table of Contents 
 - [installation](#installation)
@@ -16,14 +16,17 @@ https://github.com/amiresf1983
 - [questions](#questions)
 
 ## installation 
-requied installations for this project as below: 
+requied installations for this project as below: node js and command line
 ## usage
-to use this project,  
+to use this project, creating a simple and professional README file by using command line and answering prompts 
 ## license
-the project is under  license.
+the project is under no license.
 ## contribution 
-the contributors for this project: 
+the contributors for this project: Amir Esfandiari
 ## tests
-requirements for running this project: 
+requirements for running this project: n/a
 ## questions
-for any inquiries please contact undefined
+for any inquiries please contact: amir.esf1983@gmail.com
+
+## GITHUB:
+ https://github.com/amiresf1983
