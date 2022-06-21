@@ -7,6 +7,8 @@ I WANT a README generator
 SO THAT I can quickly create a professional README for a new project
 ```
 ## Video Demo Link
+https://drive.google.com/drive/folders/1lFvffu4FSFdZGEv3OtysSad4HsMEHVWr
+
 
 ## Acceptance Criteria
 
