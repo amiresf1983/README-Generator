@@ -16,11 +16,6 @@ const readmePrompts = [
   },
   {
     type: "input",
-    name: "table of content",
-    message: "what is the table of content?",
-  },
-  {
-    type: "input",
     name: "installation",
     message: "what are the installations required for this project?",
   },
@@ -47,12 +42,12 @@ const readmePrompts = [
   {
     type: "input",
     name: "questions",
-    message: "what are the questions related to this project?",
+    message: "how people can contact if there is any question?",
   },
 ];
 
 function writeToFile(fileName, data) {
-  fs.writeFile(fileName, data, function (err) {
+  fs.writeFile("README1.md", data, function (err) {
     console.log(fileName);
     console.log(data);
     if (err) {
@@ -65,7 +60,7 @@ function writeToFile(fileName, data) {
 
 function init() {
   inquirer.prompt(readmePrompts).then(function (data) {
-    writeToFile("README.md", generateReadme(data));
+    writeToFile("README1.md", generateReadme(data));
     console.log(data);
   });
 }
