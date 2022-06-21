@@ -2,31 +2,31 @@ function generateReadme(data) {
   return `
 
 
-# ${Data.title}
-https://github.com/${data.username})/${data.title}
+## ${data.title}
+https://github.com/amiresf1983
 
-#description
+## description
 ${data.description}
 
-# table of Contents 
-* [installation](#installation)
-*[usage](#usage)
-*[license](#license)
-*[contribution](#contribution)
-*[tests](#tests)
-*[questions](#questions)
+## table of Contents 
+- [installation](#installation)
+- [usage](#usage)
+- [license](#license)
+- [contribution](#contribution)
+- [tests](#tests)
+- [questions](#questions)
 
-# installation 
-requied installations for this project as below
-# usage
+## installation 
+requied installations for this project as below: ${data.installation}
+## usage
 to use this project, ${data.usage} 
-# license
+## license
 the project is under ${data.license} license.
-# contribution 
-contribution: ${data.contribution}
-# tests
+## contribution 
+the contributors for this project: ${data.contribution}
+## tests
 requirements for running this project: ${data.tests}
-# questions
+## questions
 for any inquiries please contact ${data.user}
 `;
 }
